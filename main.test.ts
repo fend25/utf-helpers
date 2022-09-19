@@ -67,7 +67,7 @@ const hexStringTestData: Array<{ hex: string, num: number[], u8a: Uint8Array }> 
 ]
 
 
-describe('string', async () => {
+describe('string', () => {
   test.concurrent('imports', () => {
     expect(UtfHelpers.HexString).toBe(HexString)
     expect(UtfHelpers.Utf8).toBe(Utf8)
