@@ -1,6 +1,6 @@
 {
   "name": "utf-helpers",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A zero-dependency tool to encode/decode UTF-8, UTF-16 and hex strings. For browser and Node.js. With typings.",
   "main": "index.js",
   "scripts": {
